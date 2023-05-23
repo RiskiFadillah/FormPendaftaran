@@ -70,7 +70,7 @@ export default function FormPendaftaran() {
     ) {
       if (formValues.email.includes('@')) {
         axios
-          .post('https://example.com/api/endpoint', formValues)
+          .post('https://DaftarSekolah/api/Form', formValues)
           .then(response => {
             setSuccessModalVisible(true);
           })
